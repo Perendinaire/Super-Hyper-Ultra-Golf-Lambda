@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/GREENVIS"
+    android:id="@+id/main_layout"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ScrollView android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_weight="120"
+        android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading1"
+            android:textSize="@dimen/abc_text_size_display_3_material"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textColor="@color/MAGENTAVIS"
+            android:id="@+id/textView"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textWelcome"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2" />
+
+    </LinearLayout>
+    </ScrollView>
+
+    <ScrollView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/headingLevel"
+            android:textSize="@dimen/abc_text_size_display_3_material"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/MAGENTAVIS"
+            android:id="@+id/textView4" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/level0"
+                android:id="@+id/button0"
+                android:onClick="startLevel"
+                android:background="@color/INDIGOPRO"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/level1"
+                android:id="@+id/button1"
+                android:onClick="startLevel"
+                android:background="@color/GREENPRO"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/level2"
+                android:id="@+id/button2"
+                android:onClick="startLevel"
+                android:background="@color/DEEPORANGEPRO"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/level3"
+                android:id="@+id/button3"
+                android:onClick="startLevel"
+                android:background="@color/REDPRO"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/level4"
+                android:id="@+id/button4"
+                android:onClick="startLevel"
+                android:background="@color/MAGENTAVIS"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/level5"
+                android:id="@+id/button5"
+                android:onClick="startLevel"
+                android:background="@color/BLACKPRO"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
