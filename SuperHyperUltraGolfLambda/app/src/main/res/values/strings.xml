@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FinalGameProject</string>
+
+    <string name="hello_world">hello, world</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="heading1">SUPER HYPER\nULTRA GOLF\u00A0\u03BB</string>
+    <string name="textWelcome">TILT THE SCREEN UP in the direction you want to shoot.
+        \n\nTILT HIGHER OR LOWER to increase or decrease power.
+        \n\nTOUCH to shoot! Shoot for the hole.\n\nTry to make as few shots as possible.</string>
+    <string name="level0">The Wall\nPar: 11\nScore: </string>
+    <string name="level1">Bouncer\nPar: 13\nScore: </string>
+    <string name="level2">Roamer \nPar: 14\nScore: </string>
+    <string name="level3">Homing\nPar: 8\nScore: </string>
+    <string name="level4">Challenge\nPar: 42\nScore: </string>
+    <string name="level5">Random??\nPar: ??\nScore: </string>
+    <string name="headingLevel">LEVEL SELECT</string>
+    <string name="title_activity_play">PlayActivity</string>
+
+</resources>

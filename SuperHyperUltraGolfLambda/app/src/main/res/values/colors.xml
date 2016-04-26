@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="REDPRO">#E53935</color>
+    <color name="BLUEPRO">#2e2eff</color>
+    <color name="GREENVIS">#00eca9</color>
+    <color name="ORANGEPRO">#fcb000</color>
+    <color name="MAGENTAVIS">#ff009d</color>
+    <color name="INDIGOPRO">#2643ff</color>
+    <color name="GREENPRO">#bdbd00</color>
+    <color name="BLACKPRO">#212121</color>
+    <color name="DEEPORANGEPRO">#fffb6f00</color>
+</resources>
